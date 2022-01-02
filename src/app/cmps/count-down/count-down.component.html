@@ -1,0 +1,5 @@
+<section class="count-down">
+    <div>
+        <p>Countdown: {{showMinutes() | date:'mm'}}:<span [ngClass]="{red: showRed()}">{{showSeconds()| date:'ss'}}</span></p>
+    </div>
+</section>

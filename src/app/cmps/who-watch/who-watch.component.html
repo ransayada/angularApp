@@ -1,0 +1,21 @@
+<section class="who-watch">
+    <!-- <p>who-watch works!</p> -->
+    <!-- <button (click)="addUser()">Add new watcher</button> -->
+    <ul>
+        <li *ngFor="let user of users ">
+            <img src='../../../assets/imgs/{{user.url}}' />
+            <h1>{{user.name}}</h1>
+            <button (click)="selectUser(user) ">View User</button>
+            <button (click)="deleteUser(user.id) ">x</button>
+        </li>
+    </ul>
+</section>
+<!-- <section class="watcher-card " *ngIf="!showUserList ">
+    <img src='../../../assets/imgs/{{currentUser.url}}' />
+    <h1>{{currentUser.name}}</h1>
+    <ul class="show-list clean-list ">
+        <li>Favorite Shows:</li>
+        <li *ngFor="let show of shows ">{{show}}</li>
+    </ul>
+    <button (click)=goBack()>Back</button>
+</section> -->

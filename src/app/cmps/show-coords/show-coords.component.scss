@@ -1,0 +1,16 @@
+.show-coords {
+    height: 30vh;
+    width: 70vw;
+    border-radius: 15px;
+    border: 2px solid lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .border {
+        width: 10vw;
+        border: 2px solid lightgreen;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
