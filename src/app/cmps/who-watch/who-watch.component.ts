@@ -12,31 +12,31 @@ export class WhoWatchComponent implements OnInit {
       id: 'u101',
       name: 'Admin1',
       favShows: ['Witcher', 'Friends', 'DragRace'],
-      url: '../../assets/imgs/admin1.png',
+      url: 'https://res.cloudinary.com/rscloudinary/image/upload/v1646214794/firstAngularApp/admin1_q8ghf7.png',
     },
     {
       id: 'u102',
       name: 'Admin2',
       favShows: ['Witcher', 'Friends', 'DragRace'],
-      url: '../../assets/imgs/admin2.png',
+      url: 'https://res.cloudinary.com/rscloudinary/image/upload/v1646214796/firstAngularApp/admin2_yb3hq9.png',
     },
     {
       id: 'u103',
       name: 'Admin3',
       favShows: ['Witcher', 'Friends', 'DragRace'],
-      url: '../../assets/imgs/admin3.png',
+      url: 'https://res.cloudinary.com/rscloudinary/image/upload/v1646214798/firstAngularApp/admin3_rqywvy.png',
     },
     {
       id: 'u104',
       name: 'Admin4',
       favShows: ['Witcher', 'Friends', 'DragRace'],
-      url: '../../assets/imgs/admin4.png',
+      url: 'https://res.cloudinary.com/rscloudinary/image/upload/v1646214800/firstAngularApp/admin4_ozu9yz.png',
     },
     {
       id: 'u105',
       name: 'Admin5',
       favShows: ['Witcher', 'Friends', 'DragRace'],
-      url: '../../assets/imgs/admin5.png',
+      url: 'https://res.cloudinary.com/rscloudinary/image/upload/v1646214802/firstAngularApp/admin5_dqbiae.png',
     },
   ];
 
