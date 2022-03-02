@@ -26,7 +26,8 @@ export class ShowTimeComponent implements OnInit {
       return 'https://res.cloudinary.com/rscloudinary/image/upload/v1646214806/firstAngularApp/spring_etkjrx.png';
     } else if (currMonth > 5 && currMonth <= 8) {
       return 'https://res.cloudinary.com/rscloudinary/image/upload/v1646214808/firstAngularApp/summer_wzpjlk.png.png';
-    } else return 'https://res.cloudinary.com/rscloudinary/image/upload/v1646214804/firstAngularApp/autumn_ana7bl.png';
+    } else
+      return 'https://res.cloudinary.com/rscloudinary/image/upload/v1646214804/firstAngularApp/autumn_ana7bl.png';
   }
 
   ngOnInit(): void {

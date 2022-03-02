@@ -70,7 +70,7 @@ export class WhoWatchComponent implements OnInit {
     const newUser = {
       name: newName,
       id: 'u' + num,
-      url: `${url}.png`,
+      url: `${url}`,
     };
     this.users.push(newUser);
   }

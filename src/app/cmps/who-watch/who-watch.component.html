@@ -3,7 +3,7 @@
     <!-- <button (click)="addUser()">Add new watcher</button> -->
     <ul>
         <li *ngFor="let user of users ">
-            <img src='../../../assets/imgs/{{user.url}}' />
+            <img src='{{user.url}}' />
             <h1>{{user.name}}</h1>
             <button (click)="selectUser(user) ">View User</button>
             <button (click)="deleteUser(user.id) ">x</button>
